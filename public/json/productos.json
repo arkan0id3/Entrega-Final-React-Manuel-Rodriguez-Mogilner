@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "idCategoria": [1, "lampara"], 
+        "nombre": "Lámpara",
+        "marca": "3D Models",
+        "modelo": "Groot",
+        "precio": 2500,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-44995-manuelrmogilner.appspot.com/o/lamparagroot.jpg?alt=media&token=438b82d0-44bc-4f5e-9a27-c00f2962d2f0"
+    },
+    {
+        "id": 2,
+        "idCategoria": [1, "lampara"],
+        "nombre": "Lámpara",
+        "marca": "3D Models",
+        "modelo": "Hogwarts",
+        "precio": 2500,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-44995-manuelrmogilner.appspot.com/o/lamparahogwarts.jpg?alt=media&token=4af9c5b2-909d-4daf-b8db-2e4121af639b"
+    },
+    {
+        "id": 3,
+        "idCategoria": [1, "lampara"],
+        "nombre": "Lámpara",
+        "marca": "3D Models",
+        "modelo": "Hongo",
+        "precio": 2500,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-44995-manuelrmogilner.appspot.com/o/lamparahongo.jpg?alt=media&token=497f35c3-6d69-4501-8305-b3936e37a850"
+    },
+    {
+        "id": 4,
+        "idCategoria": [1, "lampara"],
+        "nombre": "Lámpara",
+        "marca": "3D Models",
+        "modelo": "Terminator",
+        "precio": 2500,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-44995-manuelrmogilner.appspot.com/o/lamparaterminator.jpg?alt=media&token=1e56cad6-0ec7-49c2-9701-f3ff7c913a19"
+    },
+    {
+        "id": 5,
+        "idCategoria": [2, "lapicero"],
+        "nombre": "Lapicero",
+        "marca": "3D Models",
+        "modelo": "Anemona",
+        "precio": 1000,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-44995-manuelrmogilner.appspot.com/o/lapiceroanemona.jpg?alt=media&token=7cf184de-77b7-496a-8486-cfead0260bb9"
+    },
+    {
+        "id": 6,
+        "idCategoria": [2, "lapicero"],
+        "nombre": "Lapicero",
+        "marca": "3D Models",
+        "modelo": "Octogonal",
+        "precio": 1000,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-44995-manuelrmogilner.appspot.com/o/lapicerooctogonal.jpg?alt=media&token=084e8c98-ef98-44f6-b300-ccdfe4b09d4b"
+    },
+    {
+        "id": 7,
+        "idCategoria": [2, "lapicero"],
+        "nombre": "Lapicero",
+        "marca": "3D Models",
+        "modelo": "Organizador",
+        "precio": 1000,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-44995-manuelrmogilner.appspot.com/o/lapiceroorganizador.jpg?alt=media&token=f72d34cd-1bd2-42cc-9a9c-30e9cd8bb22d"
+    },
+    {
+        "id": 8,
+        "idCategoria": [2, "lapicero"],
+        "nombre": "Lapicero",
+        "marca": "3D Models",
+        "modelo": "Pi",
+        "precio": 1000,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-44995-manuelrmogilner.appspot.com/o/lapiceropi.jpg?alt=media&token=f7f21ed6-849c-4847-bfc1-6fc674cefe0b"
+    },
+    {
+        "id": 9,
+        "idCategoria": [3, "macetero"],
+        "nombre": "Macetero",
+        "marca": "3D Models",
+        "modelo": "Arbol",
+        "precio": 1500,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-44995-manuelrmogilner.appspot.com/o/maceteroarbol.jpg?alt=media&token=e4d94451-b71b-4345-bbbc-9dd2f1774ef9"
+    },
+    {
+        "id": 10,
+        "idCategoria": [3, "macetero"],
+        "nombre": "Macetero",
+        "marca": "3D Models",
+        "modelo": "Bob Esponja",
+        "precio": 1500,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-44995-manuelrmogilner.appspot.com/o/maceterobobesponja.jpg?alt=media&token=a9d7be19-f5cd-4244-b165-3da4e8b5e3fc"
+    },
+    {
+        "id": 11,
+        "idCategoria": [3, "macetero"],
+        "nombre": "Macetero",
+        "marca": "3D Models",
+        "modelo": "Calavera",
+        "precio": 1500,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-44995-manuelrmogilner.appspot.com/o/maceterocalavera.jpg?alt=media&token=d1909402-9b45-47e0-8ca5-dee7bcc71c3d"
+    },
+    {
+        "id": 12,
+        "idCategoria": [3, "macetero"],
+        "nombre": "Macetero",
+        "marca": "3D Models",
+        "modelo": "Casita",
+        "precio": 1500,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-44995-manuelrmogilner.appspot.com/o/maceterocasita.jpg?alt=media&token=02b86e1d-3cad-4f29-b670-b310a9c0c44a"
+    },
+    {
+        "id": 13,
+        "idCategoria": [3, "macetero"],
+        "nombre": "Macetero",
+        "marca": "3D Models",
+        "modelo": "Raiz",
+        "precio": 1500,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-44995-manuelrmogilner.appspot.com/o/maceteroraiz.jpg?alt=media&token=d1457b75-fa36-4c03-b4a8-f4c1c537818b"
+    },
+    {
+        "id": 14,
+        "idCategoria": [3, "macetero"],
+        "nombre": "Macetero",
+        "marca": "3D Models",
+        "modelo": "Castillo",
+        "precio": 1500,
+        "stock": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-44995-manuelrmogilner.appspot.com/o/maceterocastillo.jpg?alt=media&token=9f7ce1b7-0cd1-44d5-bc69-0805f293f50f"
+    }
+]

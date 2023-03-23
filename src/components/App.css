@@ -1,0 +1,353 @@
+
+.cardProducto {
+    width: 18rem;
+    margin: 4px;
+    background-color: gold;
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;   
+}
+.cardProductos{
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+     
+}
+.cardBody {
+    
+    margin-bottom: 3px;
+    text-align: center;
+     
+}
+.card-body{
+    
+}
+
+img {
+    margin-top: 4px;
+}
+
+.itemDetail{
+    max-width: 68%;
+    margin-top: 50px;
+    margin-bottom: 50px;  
+
+}
+.itemDetail .card-body .nav-link button{
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+.itemDetail .btn-outline-primary{
+    --bs-btn-padding-x: 0.7rem;
+    --bs-btn-padding-y: 0.01rem;
+}
+.card-img-top{
+    border-radius: 25px;
+}
+
+.btnbrand{
+    border: none;
+    
+}
+.btnbrand:focus-visible{
+    background:none;
+}
+.btnbrand:hover{
+    background: none;
+}
+
+.btnbrand{
+    border: none;
+    
+}
+
+.nav-linkedit{
+    background: none;
+}
+.nav-linkedit:hover{
+    background: none;
+}
+.nav-linkedit:focus{
+    background: none; 
+}
+.btnbrand{
+    --bs-btn-color:red;
+    --bs-btn-bg:none;
+    --bs-btn-border-color:none;
+    --bs-btn-hover-color:red;
+    --bs-btn-hover-bg:red;
+    --bs-btn-hover-border-color:none;
+    --bs-btn-focus-shadow-rgb:111,111,111;
+    --bs-btn-active-color:#fff;
+    --bs-btn-active-bg:none;
+    --bs-btn-active-border-color:none;
+    --bs-btn-active-shadow:none;
+    --bs-btn-disabled-color:none;
+    --bs-btn-disabled-bg:none;
+    --bs-btn-disabled-border-color:none;
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: larger;
+}
+
+
+
+
+/* brand animation */
+
+
+
+:root {
+    --bar-scale-y: 0;
+    --sparkle-color: rgb(253 244 215 / 40%);
+}
+
+@keyframes pop-word {
+    to {
+        transform: rotateX(0);
+        
+        
+    }
+}
+@keyframes pop-wordback {
+    to {
+        transform: rotateX(150);
+        
+        
+    }
+}
+
+@keyframes show {
+    to {
+        opacity: 1;
+        
+        
+    }
+}
+
+@keyframes bar-scale {
+    to {
+        transform: scaleY(1);
+        
+        
+    }
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    color: red;
+    font-family:"Monofett";
+    
+
+    line-height: 0.4;
+    letter-spacing: -3px;
+    perspective: 500px;
+    text-shadow: 0px 2px 0px rgba(0,0,0,1);
+;
+
+
+}
+
+.word {
+    
+
+    animation: show 0.01s forwards, pop-word 3s forwards infinite normal;
+    animation-timing-function: cubic-bezier(0.14, 1.23, 0.33, 1.40);
+    opacity: 0;
+    font-size: 3rem;
+
+    transform: rotateX(150deg);
+    transform-origin: 50% 100%;
+    
+    
+}
+.word:nth-of-type(1) {
+letter-spacing: -5px;
+}
+.word:nth-of-type(2) {
+    padding: 0;
+
+    animation-delay: 1.2s;
+
+    color: gold;
+    font-size: 2.3rem;
+    
+    
+    
+}
+
+  
+@media (max-width: 600px) {
+        h1 {
+        font-size: 1rem;
+        }
+    
+        /* sparkle */
+        .superscript::after {
+        --size: 2rem;
+        }
+        
+}
+
+.cardProducto:hover .cardBody .nav-link .btn{
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+@keyframes shake {
+10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+}
+
+20%, 80% {
+    transform: translate3d(1px, 0, 0);
+}
+
+30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+}
+
+40%, 60% {
+    transform: translate3d(1px, 0, 0);
+    }
+}
+
+.Contenedor3D{
+    position: absolute;           
+    
+}
+.Contenedor3D2{
+    position: relative;
+    margin-left:31%;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+/*Carrito*/
+.cartContainer{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+}
+.carritoDivV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+.carritoV{
+    width: 250px;
+    height: 250px;
+    margin-right: 3%;
+}
+.hCarritoV{
+    margin: 0px;
+
+}
+.btnCarritoV{
+    margin: 0px;
+}
+
+.cardCart{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;   
+}
+
+
+.cardsCartDiv{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.offcanvas .nav-link{
+    
+    margin-right: 15px;
+    margin-top: 15px;  
+    
+    
+    
+}
+
+
+/*offcanvas*/
+.offcanvas{
+    flex-direction: row;
+    
+}
+
+.offcanvas-size-sm{
+    --bs-offcanvas-width: min(85vw, 232px) !important;
+    padding: 4px;
+}
+
+
+.divButtons{
+    
+    
+    
+}
+
+.divButtons div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+    gap: 10px;
+    align-items:center;
+    margin-left: 10px;
+}
+
+
+.itemCount {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+.navbar-nav{
+    align-items: center;
+    
+}
+
+.navbar{
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+/* checkout */
+.svg{
+    margin-left: auto;
+    width: 40px;
+}
+.txtIcons{
+    display: flex;
+    align-items: center;
+}
+
+.contForm{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.btn-delete{
+    margin-left: auto;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
